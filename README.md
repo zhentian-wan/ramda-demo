@@ -11,3 +11,4 @@
 * [ifElse](./logic/ifElse.js) -- condition logic
 
 ## object
+* [pick & omit](./object/pick.js) -- showing how to get object by props by condition, difference between R.pickAll & R.props

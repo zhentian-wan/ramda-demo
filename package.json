@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "//": "List related operators",
     "unfold": "node list/unfold.js",
-    "chain": "node list/chain.js"
+    "chain": "node list/chain.js",
+    "//": "Object related operator",
+    "pick": "node object/pick.js"
   },
   "author": "",
   "license": "ISC",
