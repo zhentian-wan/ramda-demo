@@ -8,7 +8,8 @@
     "unfold": "node list/unfold.js",
     "chain": "node list/chain.js",
     "//": "Object related operator",
-    "pick": "node object/pick.js"
+    "pick": "node object/pick.js",
+    "lens": "node object/lens.js"
   },
   "author": "",
   "license": "ISC",

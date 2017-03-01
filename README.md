@@ -12,3 +12,4 @@
 
 ## object
 * [pick & omit](./object/pick.js) -- showing how to get object by props by condition, difference between R.pickAll & R.props
+* [lens & lensProp](./object/lens.js) -- showing how to update object props by using lens or lensProp
