@@ -11,6 +11,7 @@
     "evolve": "node object/evolve.js",
     "pick": "node object/pick.js",
     "lens": "node object/lens.js",
+    "where": "node object/where.js",
     "//": "Function realted operators",
     "converge": "node function/converge.js",
     "converge2": "node function/converge2.js",
