@@ -19,7 +19,34 @@ const getUpdatedPerson = R.coverage(
 )
 ```
 
-More detail check [converge](converge.js)
+More detail check [part1](converge.js) and [part2](converge2.js)
 
 Second way is to use `R.useWith`:
+```
+const countries = [
+    {flag: 'GB', cc: 'GB'},
+    {flag: 'US', cc: 'US'},
+    {flag: 'CA', cc: 'CA'},
+    {flag: 'FR', cc: 'FR'}
+];
 
+const getCountry = useWith(
+    find,
+    [
+        propEq('cc'),
+        identity
+    ]
+);
+
+const result = getCountry('US', countries);
+
+console.log(result);
+```
+
+So what is the difference between `R.converge` & `R.useWith`?
+Remember this:
+
+* Rule1: if there is only one arg, consider use `R.converge`.
+* Rule2: if there are multi args, consider use `R.useWith`
+
+![Converge vs useWith](../imgs/point-free.png)
