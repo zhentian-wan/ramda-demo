@@ -1,6 +1,7 @@
 
 ## function
-* [converge](./function/converge.js) -- point free function style
+* [converge part1](./function/converge.js) -- point free function style - part1
+* [converge part2](./function/converge2.js) -- point free function style - part2
 * [useWith](./function/useWith.js) -- point free function, for multi args function
 * [point-free-style](./function/point_free.md) -- different between using converge & useWith
 * [tryCatch](./function/tryCatch.js) -- error handling
