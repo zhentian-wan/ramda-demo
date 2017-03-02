@@ -10,7 +10,10 @@
     "//": "Object related operator",
     "evolve": "node object/evolve.js",
     "pick": "node object/pick.js",
-    "lens": "node object/lens.js"
+    "lens": "node object/lens.js",
+    "//": "Function realted operators",
+    "converge": "node function/converge.js",
+    "useWith": "node function/useWith.js"
   },
   "author": "",
   "license": "ISC",

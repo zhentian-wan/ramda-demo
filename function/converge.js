@@ -74,6 +74,7 @@ const getUpdatedPerson = R.converge(
         getURLFromPerson,
         R.identity
     ]
-)
+);
+
 const result = getUpdatedPerson(person);
 console.log(result);
