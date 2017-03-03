@@ -20,7 +20,8 @@
     "converge": "node function/converge.js",
     "converge2": "node function/converge2.js",
     "useWith": "node function/useWith.js",
-    "pipe": "node function/pipe.js"
+    "pipe": "node function/pipe.js",
+    "uncurryN": "node function/uncurryN.js"
   },
   "author": "",
   "license": "ISC",

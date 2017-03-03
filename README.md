@@ -5,6 +5,7 @@
 * [useWith](./function/useWith.js) -- point free function, for multi args function
 * [point-free-style](./function/point_free.md) -- different between using converge & useWith
 * [pipe](./function/pipe.js) -- FP pipe
+* [uncurryN](./function/uncurryN.js) -- uncurryN a third party lib if need to overwrite function
 * [tryCatch](./function/tryCatch.js) -- error handling
 
 ## list
