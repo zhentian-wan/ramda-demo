@@ -12,6 +12,7 @@
 * [chain](./list/chain.js) -- flatMap, get unique array from a nested array, also an example how to use R.tap
 * [unfold](./list/unfold.js) -- generate list of array
 * [fromPairs](./list/fromPairs.js) -- from [['a', 'b'], ['c', 'd']] to {a: b, c: d}
+* [countBy](./list/countBy.js) -- showing countBy and invert 
 
 ## logic
 * [ifElse](./logic/ifElse.js) -- condition logic
