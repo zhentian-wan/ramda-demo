@@ -8,6 +8,7 @@
     "unfold": "node list/unfold.js",
     "chain": "node list/chain.js",
     "partition": "node list/partition",
+    "fromPairs": "node list/fromPairs",
     "//": "Object related operator",
     "evolve": "node object/evolve.js",
     "pick": "node object/pick.js",
