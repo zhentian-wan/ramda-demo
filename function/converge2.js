@@ -1,6 +1,6 @@
 const R = require('ramda');
 
-const {converge, compose, head, sort, identity, equals, descend} = R;
+const {converge, compose, head, sort, prop, identity, equals, descend, sortBy} = R;
 
 const shouldBeTrue = [6,2,3,4,5,2,1];
 const shouldBeFalse = [5,2,3,6,8];

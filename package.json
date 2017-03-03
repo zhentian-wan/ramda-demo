@@ -7,6 +7,7 @@
     "//": "List related operators",
     "unfold": "node list/unfold.js",
     "chain": "node list/chain.js",
+    "partition": "node list/partition",
     "//": "Object related operator",
     "evolve": "node object/evolve.js",
     "pick": "node object/pick.js",

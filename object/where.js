@@ -1,6 +1,6 @@
 const R = require('ramda');
 
-const {where, lt, gt, map, chain, not, compose, pluck, filter, equals, pickAll} = R;
+const {where, lt, gt, map, chain, not, compose, pluck, filter, equals, pickAll, pick} = R;
 
 const products = [
     {name: 'Jeans', price:80, category: 'clothes', stock: 100},
@@ -24,6 +24,7 @@ const getProductsName = compose(
     filterByConditions
 );
 const getProductNameWithPrice = compose(
+   //map(pick(['name', 'price'])),
    map(pickAll(['name', 'price'])),
    filterByConditions
 );

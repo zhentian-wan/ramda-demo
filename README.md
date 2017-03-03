@@ -7,6 +7,7 @@
 * [tryCatch](./function/tryCatch.js) -- error handling
 
 ## list
+* [partition](./list/partition.js) -- filter, reject, partition, different ways to davide an array
 * [chain](./list/chain.js) -- flatMap, get unique array from a nested array, also an example how to use R.tap
 * [unfold](./list/unfold.js) -- generate list of array
 
