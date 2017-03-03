@@ -17,5 +17,6 @@
 ## object
 * [evolve](./object/evolve.js) -- showing how to update object's props values in a more understandable way
 * [lens & lensProp](./object/lens.js) -- showing how to update object props by using lens or lensProp
+* [project](./object/project.js) -- a clean way to replace R.map(R.pick['prop1', 'prop2'])
 * [where](./object/where.js) -- combine where with filter, to make it really convenient writing complex predicts function
 * [pick & omit](./object/pick.js) -- showing how to get object by props by condition, difference between R.pickAll (return objects) & R.prop (return value)

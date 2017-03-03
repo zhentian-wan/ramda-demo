@@ -11,6 +11,7 @@
     "//": "Object related operator",
     "evolve": "node object/evolve.js",
     "pick": "node object/pick.js",
+    "project": "node object/project.js",
     "lens": "node object/lens.js",
     "where": "node object/where.js",
     "//": "Function realted operators",
