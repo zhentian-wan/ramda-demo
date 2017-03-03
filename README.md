@@ -10,6 +10,7 @@
 * [partition](./list/partition.js) -- filter, reject, partition, different ways to davide an array
 * [chain](./list/chain.js) -- flatMap, get unique array from a nested array, also an example how to use R.tap
 * [unfold](./list/unfold.js) -- generate list of array
+* [fromPairs](./list/fromPairs.js) -- from [['a', 'b'], ['c', 'd']] to {a: b, c: d}
 
 ## logic
 * [ifElse](./logic/ifElse.js) -- condition logic
