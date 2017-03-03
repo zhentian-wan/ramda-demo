@@ -14,6 +14,7 @@
 * [unfold](./list/unfold.js) -- generate list of array
 * [fromPairs](./list/fromPairs.js) -- from [['a', 'b'], ['c', 'd']] to {a: b, c: d}
 * [countBy](./list/countBy.js) -- showing countBy and invert 
+* [allPass](./list/allPass.js) -- showing all pass for condition check
 
 ## logic
 * [ifElse](./logic/ifElse.js) -- condition logic

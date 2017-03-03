@@ -10,6 +10,7 @@
     "partition": "node list/partition",
     "fromPairs": "node list/fromPairs",
     "countBy": "node list/countBy",
+    "allPass": "node list/allPass",
     "//": "Object related operator",
     "evolve": "node object/evolve.js",
     "pick": "node object/pick.js",
