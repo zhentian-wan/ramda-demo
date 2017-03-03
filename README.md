@@ -4,6 +4,7 @@
 * [converge part2](./function/converge2.js) -- point free function style - part2
 * [useWith](./function/useWith.js) -- point free function, for multi args function
 * [point-free-style](./function/point_free.md) -- different between using converge & useWith
+* [pipe](./function/pipe.js) -- FP pipe
 * [tryCatch](./function/tryCatch.js) -- error handling
 
 ## list
