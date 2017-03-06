@@ -25,3 +25,6 @@
 * [project](./object/project.js) -- a clean way to replace R.map(R.pick['prop1', 'prop2'])
 * [where](./object/where.js) -- combine where with filter, to make it really convenient writing complex predicts function
 * [pick & omit](./object/pick.js) -- showing how to get object by props by condition, difference between R.pickAll (return objects) & R.prop (return value)
+
+## Relation
+* [sortWith](./relation/sortWith.js) -- showing the difference between sort, sortWith, sortBy
