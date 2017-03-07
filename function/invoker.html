@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script data-require="ramda@*" data-semver="0.23.0" src="https://unpkg.com/ramda@0.23.0/dist/ramda.min.js"></script>
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+        #sample {
+            width:100px;
+            height: 35px;
+            border: solid 1px black;
+            position: absolute;
+        }
+
+        #sample2 {
+            width:100px;
+            height: 35px;
+            border: solid 1px black;
+            position: absolute;
+            top: 100px;
+        }
+
+    </style>
+</head>
+
+<body>
+<div id="sample">
+    Hey There!
+</div>
+
+<div id="sample2">
+    I'm another div
+</div>
+<script>
+    /*$("#sample")
+        .animate({left: '250px'})
+        .animate({left: '10px'})
+        .slideUp();*/
+
+    const {invoker, compose, constructN} = R;
+
+    // we can use invoker to conver object methods to a composable function
+    // The first arg: How many arg the method has
+    // The second arg: What is the function name to be invoked
+    const animate = invoker(1, 'animate');
+    const slide = invoker(0, 'slideUp');
+
+    //We also want wrap jQuery into a single reuseable function
+    const jq = constructN(1, $);
+
+    const animateDiv = compose(
+        slide,
+        animate({left: '10px'}),
+        animate({left: '250px'}),
+        jq
+    );
+
+    animateDiv("#sample");
+    animateDiv("#sample2");
+
+</script>
+</body>
+
+</html>

@@ -6,6 +6,7 @@
 * [point-free-style](./function/point_free.md) -- different between using converge & useWith
 * [pipe](./function/pipe.js) -- FP pipe
 * [uncurryN](./function/uncurryN.js) -- uncurryN a third party lib if need to overwrite function
+| [invoker & constructN](function/invoker.html) -- showing how to convert object methods into composable functions 
 * [tryCatch](./function/tryCatch.js) -- error handling
 
 ## list
