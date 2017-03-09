@@ -5,6 +5,7 @@
 * [useWith](./function/useWith.js) -- point free function, for multi args function
 * [point-free-style](./function/point_free.md) -- different between using converge & useWith
 * [pipe](./function/pipe.js) -- FP pipe
+* [composeP & pipeP](./function/composeP.js) -- compose Promise and pipe Promise
 * [uncurryN](./function/uncurryN.js) -- uncurryN a third party lib if need to overwrite function
 | [invoker & constructN](function/invoker.html) -- showing how to convert object methods into composable functions 
 * [tryCatch](./function/tryCatch.js) -- error handling
@@ -19,6 +20,7 @@
 
 ## logic
 * [ifElse](./logic/ifElse.js) -- condition logic
+* [allPass](./logic/allPass.js) -- allPass & propSatisfies
 
 ## object
 * [evolve](./object/evolve.js) -- showing how to update object's props values in a more understandable way
