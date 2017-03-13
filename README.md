@@ -17,6 +17,7 @@
 * [fromPairs](./list/fromPairs.js) -- from [['a', 'b'], ['c', 'd']] to {a: b, c: d}
 * [countBy](./list/countBy.js) -- showing countBy and invert 
 * [allPass](./list/allPass.js) -- showing all pass for condition check
+* [zip](./list/zip.js) -- zip, zipObj to convert list to object style
 
 ## logic
 * [ifElse](./logic/ifElse.js) -- condition logic

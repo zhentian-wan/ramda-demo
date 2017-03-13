@@ -10,7 +10,8 @@
     "partition": "node list/partition",
     "fromPairs": "node list/fromPairs",
     "countBy": "node list/countBy",
-    "allPass": "node list/allPass",
+    "allPass": "node logic/allPass.js",
+    "zip": "nodemon list/zip",
     "//Object": "Object related operator",
     "evolve": "node object/evolve.js",
     "pick": "node object/pick.js",
@@ -27,13 +28,15 @@
     "composeP": "node function/composeP.js",
     "//Relation": "Relation related operators",
     "sortWith": "node relation/sortWith",
-    "//Logic": "Logic related operators",
-    "allPass": "node logic/allPass.js"
+    "//Logic": "Logic related operators"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "0.15.3",
     "ramda": "^0.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
   }
 }
