@@ -19,6 +19,7 @@
     "lens": "node object/lens.js",
     "where": "node object/where.js",
     "toPairs": "node object/toPairs.js",
+    "path": "node object/path.js",
     "//Function": "Function realted operators",
     "converge": "node function/converge.js",
     "converge2": "node function/converge2.js",
