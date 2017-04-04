@@ -28,7 +28,6 @@
     "pipe": "node function/pipe.js",
     "uncurryN": "node function/uncurryN.js",
     "composeP": "node function/composeP.js",
-    "csutom-compose": "node function/custom-compose.js",
     "//Relation": "Relation related operators",
     "sortWith": "node relation/sortWith",
     "//Logic": "Logic related operators"
