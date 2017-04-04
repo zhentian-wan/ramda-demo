@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest --watch",
     "//List": "List related operators",
     "unfold": "node list/unfold.js",
     "chain": "node list/chain.js",
@@ -27,6 +28,7 @@
     "pipe": "node function/pipe.js",
     "uncurryN": "node function/uncurryN.js",
     "composeP": "node function/composeP.js",
+    "csutom-compose": "node function/custom-compose.js",
     "//Relation": "Relation related operators",
     "sortWith": "node relation/sortWith",
     "//Logic": "Logic related operators"
@@ -38,6 +40,10 @@
     "ramda": "^0.23.0"
   },
   "devDependencies": {
-    "nodemon": "1.11.0"
+    "babel-jest": "19.0.0",
+    "babel-preset-es2015": "6.24.0",
+    "jest": "19.0.2",
+    "nodemon": "1.11.0",
+    "regenerator-runtime": "0.10.3"
   }
 }

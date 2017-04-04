@@ -9,6 +9,7 @@
 * [uncurryN](./function/uncurryN.js) -- uncurryN a third party lib if need to overwrite function
 * [invoker & constructN](function/invoker.html) -- showing how to convert object methods into composable functions 
 * [tryCatch](./function/tryCatch.js) -- error handling
+* [Write my own compose](./function/custom-compose.js) -- write own compose and composeAll function
 
 ## list
 * [partition](./list/partition.js) -- filter, reject, partition, different ways to davide an array
