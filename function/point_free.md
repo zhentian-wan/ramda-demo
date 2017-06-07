@@ -10,7 +10,7 @@ To make it as point-free function, we need to get rid of `person` object we pass
 
 First way, we can use `R.converge`:
 ```
-const getUpdatedPerson = R.coverage(
+const getUpdatedPerson = R.converge(
     R.assoc('avatar'),
     [
         getUrlFromPerson,
