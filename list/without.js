@@ -1,4 +1,5 @@
-import {without, min, max, reduce, converge, identity, equals} from 'ramda'
+const R = require('ramda');
+const {without, min, max, reduce, converge, identity, equals} = R
 
 const getLowest = reduce(min, Number.MAX_VALUE)
 const getHighest = reduce(max, Number.MIN_VALUE)
