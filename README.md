@@ -19,6 +19,7 @@
 * [countBy](./list/countBy.js) -- showing countBy and invert 
 * [allPass](./list/allPass.js) -- showing all pass for condition check
 * [zip](./list/zip.js) -- zip, zipObj to convert list to object style
+* [without](./list/without.js) -- without, remove items from array
 
 ## logic
 * [ifElse](./logic/ifElse.js) -- condition logic
